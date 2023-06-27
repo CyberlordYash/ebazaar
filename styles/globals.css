@@ -130,12 +130,13 @@ span.text-red {
 
 .hero-banner-container {
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  margin: 0 20px 2px 20px;
+  background-color: #00000035;
   border-radius: 15px;
   position: relative;
   height: 500px;
   line-height: 0.9;
-  width: 100%;
+  width: 95%;
 }
 .hero-banner-container .beats-solo {
   font-size: 20px;
