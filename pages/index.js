@@ -3,7 +3,7 @@ import { client } from "../lib/client";
 import { Product, FooterBanner, HeroBanner } from "../components";
 const Home = ({ products, bannerData }) => {
   return (
-    <>
+    <div className="background">
       <HeroBanner heroBanner={bannerData[0]}>
         {console.log(bannerData)}
       </HeroBanner>
@@ -17,7 +17,7 @@ const Home = ({ products, bannerData }) => {
         ))}
       </div>
       <FooterBanner footerBanner={bannerData && bannerData[0]}></FooterBanner>
-    </>
+    </div>
   );
 };
 
